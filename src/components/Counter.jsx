@@ -22,7 +22,7 @@ definido en el index.js del store, el segundo se refiere al valor del state */
 
   const increaseByNumber = (number) => {
     /* the parameters that are in the counterActions.increase are stored in a key called payload*/
-    dispatch(counterActions.increase(10));
+    dispatch(counterActions.increase(5));
   };
 
   return (
